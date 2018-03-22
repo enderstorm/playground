@@ -2,6 +2,6 @@ import { logger } from './logger/Logger'
 
 
 const loggerConfig = {
-  // apiUrl: "http://localhost:9205/api",
+  apiUrl: 'https://yeself-int-api.app.brux.space/yeself-agent/agent/analytics/track/user/api/batch/',
 };
 logger(loggerConfig);
