@@ -1,6 +1,7 @@
 import request from 'superagent';
 import { getDomPath, getMousePos } from './LoggerUtils';
 
+
 const NO_VISITOR = 'no-visitor-yet';
 
 const currentVisitorId = () =>
