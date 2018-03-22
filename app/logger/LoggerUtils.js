@@ -21,7 +21,7 @@ const getDomPath = e => {
   while (e.parentNode) {
       // Join element classes with . before
       // .col-xs-6.col-sm-6.col-md-3
-      const classes = e.classList.value
+      const classes = e.classList
           .split(' ')
           .filter(str => str !== '')
           .map(str => `.${str}`)
