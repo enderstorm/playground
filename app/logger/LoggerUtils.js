@@ -27,6 +27,8 @@ const getDomPath = e => {
           .map(str => `.${str}`)
           .join('');
 
+
+          
       const sibIndex = getSiblingIndex(e);
 
       if (e.hasAttribute('id') && e.id !== '') {
